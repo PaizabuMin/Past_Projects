@@ -1,0 +1,5 @@
+case,predictor,k,c,s,branches,old_manual_mispred,old_mispred_rate,new_manual_mispred,new_mispred_rate,improved
+simple_for,T,16,2,3,11,1/11,0.090909,0/11,0.0,True
+two_for,B,16,2,4,21,2/21,0.095238,1/21,0.047619,True
+biased_if,L,16,2,3,18,3/18,0.166667,1/18,0.055556,True
+even_odd_if,G,16,2,4,23,2/23,0.086957,1/23,0.043478,True

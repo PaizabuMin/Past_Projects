@@ -1,0 +1,4 @@
+trace,best_nonunified_ipc,best_nonunified_cfg,unified10_ipc,nonunified_beats_unified10
+gen-lin-recc,0.190557,"a=4 d=2 m=4",0.190968,no
+iccg,0.443377,"a=4 d=3 m=3",0.572405,no
+inner-product,0.570651,"a=4 d=2 m=4",0.665451,no
