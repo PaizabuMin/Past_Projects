@@ -1,6 +1,6 @@
 # Past_Projects
 
-Hello, my name is Paizabu Min. This repository contains past projects I've developed over the course of my time in th Univeristy Of Maryland. Below is an overview of each project folder and its main focus.
+Hello, my name is Paizabu Min. This repository contains past projects I've developed over the course of my time in the Univeristy Of Maryland. Below is an overview of each project folder and its main focus.
 
 ## Projects
 
