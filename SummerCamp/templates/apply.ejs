@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Application</title>
+</head>
+
+<body>
+	<h1>Application</h1>
+	<form action="http://localhost:<%- portNumber %>/processApplication" method="post">
+		<fieldset>
+			<label><strong>Name: </strong><input type="text" name="name"/></label>
+			<label><strong>Email Address: </strong><input type="email" name="email"></label>
+            <br><br>
+            <label><strong>GPA: </strong><input type="text" name="gpa"></label>
+            <br><br>
+            <strong>Background Information: </strong>
+            <br>
+            <label><textarea rows="5" cols="80" name="backgroundInformation"></textarea></label>
+		</fieldset>
+        <br>
+		<input type="reset" />
+		<input type="submit" value="Submit Application"/>
+	</form>
+    <hr>
+    <a href="/">HOME</a>
+</body>
+
+</html>
+<script>
+    window.onsubmit = () => {
+        return confirm(`Are you sure you want to submit your applications?\nYou will not be able to change your information once submitted.`);
+    };
+</script>

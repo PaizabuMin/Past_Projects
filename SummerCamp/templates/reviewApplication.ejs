@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Review Application</title>
+</head>
+
+<body>
+	<h1>Review Application</h1>
+	<form action="http://localhost:<%- portNumber %>/processReviewApplication" method="post">
+		<fieldset>
+			<label><strong>Email Address: </strong><input type="email" name="email"></label>
+            <br><br>
+		</fieldset>
+        <br>
+		<input type="reset" />
+		<input type="submit" value="Submit Request"/>
+	</form>
+    <hr>
+    <a href="/">HOME</a>
+</body>
+
+</html>

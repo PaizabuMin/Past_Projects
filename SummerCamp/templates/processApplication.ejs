@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Process Application</title>
+</head>
+
+<body>
+	<h1>Applicants Data</h1>
+	<div>
+		<strong>Name: </strong><%- name %><br>
+		<strong>Email Address: </strong><%- email %><br>
+		<strong>GPA: </strong><%- gpa %><br>
+		<strong>Background Information</strong>
+        <br>
+		<%- info %>
+		<br>
+	</div>
+    <hr>
+    <strong>Task completed at <%= new Date() %></strong>
+    <hr>
+    <a href="/">HOME</a>
+</body>
+
+</html>
